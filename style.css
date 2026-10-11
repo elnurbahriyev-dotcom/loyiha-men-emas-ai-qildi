@@ -1,0 +1,117 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+header {
+    padding: 20px 50px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-container {
+    background-color: #800080;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 50px;
+    padding: 40px 60px;
+    border-radius: 20px;
+}
+
+.main-left {
+    max-width: 50%;
+    color: #ffffff;
+}
+
+.main-left h2 {
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 15px;
+}
+
+.main-left p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.main-btn {
+    background-color: #ffffff;
+    color: #800080;
+    border: none;
+    padding: 12px 35px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.main-right {
+    max-width: 40%;
+}
+
+.main-right img {
+    width: 100%;
+    max-width: 380px;
+    height: auto;
+    display: block;
+}
+
+.kitoblar-cotainer {
+    display: flex;
+    justify-content: space-between;
+    margin: 60px 50px;
+}
+
+.kitoblar-matni {
+    width: 25%;
+}
+
+.kitoblar-matni h2 {
+    color: #800080;
+    font-size: 28px;
+    line-height: 1.3;
+}
+
+.kitoblar-matni p {
+    color: #666666;
+    font-size: 14px;
+}
+
+.kitoblar-haqida {
+    display: flex;
+    gap: 20px;
+    width: 70%;
+}
+
+.book-1 {
+    flex: 1;
+    border-radius: 15px;
+    padding: 25px 15px;
+    text-align: center;
+}
+
+.book-1 img {
+    width: 110px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.book-1 h3 {
+    font-size: 16px;
+    margin: 10px 0 5px 0;
+}
+
+.book-1 p {
+    font-size: 12px;
+    color: #888888;
+}
+
